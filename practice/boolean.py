@@ -12,6 +12,6 @@
 # print(a >2 and b<=3)
 
 # bool4
-a = int(input("Give the number a: "))
-b = int(input("Give the number b: "))
-print(a>=0 and b < -2)
+# a = int(input("Give the number a: "))
+# b = int(input("Give the number b: "))
+# print(a>=0 and b < -2)
