@@ -40,3 +40,62 @@
 # d = a%10
 
 # print(b != c and c != d and d != b)
+
+#bool34
+
+# x = int(input("x coordinate"))
+# y = int(input("y coordinate"))
+
+
+# c = (y%2==0 and x%2 == 1 and x<9 and y<9) or (y%2==1 and x%2 == 0 and x<9 and y<9) 
+# print(c)
+
+# bool35
+
+
+# x = int(input("x coordinate "))
+# y = int(input("y coordinate "))
+# x1 = int(input("x1 coordinate "))
+# y1 = int(input("y1 coordinate "))
+
+# c = (y%2==0 and x%2 == 1 and x<9 and y<9) or (y%2==1 and x%2 == 0 and x<9 and y<9) 
+# c1 = (y1%2==0 and x1%2 == 1 and x1<9 and y1<9) or (y1%2==1 and x1%2 == 0 and x1<9 and y1<9) 
+
+# ans = c == c1
+# print(ans)
+
+# bool36
+
+
+# x = int(input("x coordinate "))
+# y = int(input("y coordinate "))
+# x2 = int(input("x2 coordinate "))
+# y2 = int(input("y2 coordinate "))
+
+# ans = (x == x2 ) or (y == y2) 
+
+# print(ans)
+
+# bool37
+
+# x = int(input("x coordinate "))
+# y = int(input("y coordinate "))
+# x1 = int(input("x1 coordinate "))
+# y1 = int(input("y1 coordinate "))
+
+# ans = (x1==x+1)and (y1 == y+1) or (x1 == x+1 and y1 == y+1)
+
+# print(ans)
+
+# bool38
+
+x = int(input("x coordinate "))
+y = int(input("y coordinate "))
+x1 = int(input("x1 coordinate "))
+y1 = int(input("y1 coordinate "))
+
+h = abs(x1-x)
+v = abs (y-y1)
+
+ans = h==v
+print(ans)
